@@ -1,0 +1,153 @@
+/* Sponsor Section */
+.sponsor-section {
+    padding: 5rem 0;
+    background: #f8fafc;
+    position: relative;
+  }
+  
+  .section-header {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  
+  .section-title {
+    font-size: 2.5rem;
+    color: #1e3a2a;
+    font-weight: 700;
+    letter-spacing: -0.05em;
+    margin-bottom: 0.5rem;
+  }
+  
+  .section-subtitle {
+    color: #64748b;
+    font-size: 1.1rem;
+  }
+  
+  /* Sponsor Grid */
+  .sponsor-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto 4rem;
+    padding: 0 1rem;
+  }
+  
+  .sponsor-card {
+    background: white;
+    border-radius: 12px;
+    padding: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    border: 1px solid #e2e8f0;
+  }
+  
+  .sponsor-logo {
+    max-width: 160px;
+    height: 50px;
+    object-fit: contain;
+    filter: grayscale(100%);
+    opacity: 0.8;
+    transition: all 0.3s ease;
+  }
+  
+  .sponsor-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(30, 58, 42, 0.08);
+  }
+  
+  .sponsor-card:hover .sponsor-logo {
+    filter: grayscale(0);
+    opacity: 1;
+    transform: scale(1.05);
+  }
+  
+  /* Entertainment Section */
+  .entertainment-section {
+    text-align: center;
+  }
+  
+  .entertainment-title {
+    font-size: 1.75rem;
+    color: #1e3a2a;
+    margin-bottom: 2rem;
+    font-weight: 600;
+  }
+  
+  .entertainment-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .entertainment-card {
+    background: white;
+    border-radius: 50px;
+    padding: 0.8rem 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    border: 1px solid #e2e8f0;
+    transition: all 0.2s ease;
+  }
+  
+  .entertainment-card:hover {
+    background: #f0fdf4;
+    transform: translateY(-2px);
+    box-shadow: 0 3px 8px rgba(30, 58, 42, 0.05);
+  }
+  
+  .entertainment-icon {
+    font-size: 1.2rem;
+  }
+  
+  .entertainment-text {
+    color: #475569;
+    font-weight: 500;
+    font-size: 0.95rem;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 1024px) {
+    .sponsor-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .sponsor-section {
+      padding: 4rem 0;
+    }
+    
+    .sponsor-grid {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1.5rem;
+    }
+    
+    .section-title {
+      font-size: 2rem;
+    }
+    
+    .sponsor-logo {
+      max-width: 120px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .sponsor-grid {
+      grid-template-columns: 1fr;
+    }
+    
+    .entertainment-card {
+      padding: 0.6rem 1.2rem;
+    }
+    
+    .section-title {
+      font-size: 1.75rem;
+    }
+  }

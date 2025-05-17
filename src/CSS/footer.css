@@ -1,0 +1,106 @@
+/* Footer Styles */
+.site-footer {
+    width: 100%;
+    background: #fff3e0;
+    border-top: 1px solid rgba(217, 119, 6, 0.2);
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.05);
+    position: relative;
+    z-index: 1000;
+  }
+  
+  .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 70px;
+    padding: 1rem 2rem;
+  }
+  
+  /* Social Media */
+  .social-links {
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  .social-item {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s ease;
+  }
+  
+  .social-item:hover {
+    transform: translateY(-2px);
+  }
+  
+  .social-item img {
+    width: 100%;
+    height: auto;
+    filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.1));
+  }
+  
+  /* Kontak */
+  .contact-section {
+    display: flex;
+    gap: 2rem;
+    font-size: 0.9rem;
+    color: #D97706;
+  }
+  
+  .contact-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  /* Copyright */
+  .copyright-section {
+    border-top: 1px solid rgba(217, 119, 6, 0.1);
+    padding: 1rem 0 0.5rem;
+    text-align: center;
+  }
+  
+  .copyright-section p {
+    font-size: 0.8rem;
+    color: #9a3412; /* Orange gelap kecoklatan */
+    margin: 0;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .footer-content {
+      flex-direction: column;
+      gap: 1rem;
+      padding: 1rem 0;
+      min-height: auto;
+    }
+  
+    .contact-section {
+      flex-direction: column;
+      gap: 0.5rem;
+      text-align: center;
+    }
+  
+    .social-links {
+      justify-content: center;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .footer-container {
+      padding: 1rem;
+    }
+    
+    .contact-item {
+      font-size: 0.85rem;
+    }
+    
+    .copyright-section p {
+      font-size: 0.75rem;
+    }
+  }
