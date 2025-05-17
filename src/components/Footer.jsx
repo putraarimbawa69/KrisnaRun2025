@@ -7,7 +7,7 @@ const Footer = () => {
         {/* Social dan Kontak */}
         <div className="footer-content">
           <div className="social-section">
-          <span className="contact-item">Follow Sosial Media kami :</span>
+            <span className="follow-text">Follow Sosial Media Kami:</span>
             <div className="social-links">
               <a href="#" className="social-item">
                 <img src="/assets/icons/instagram.svg" alt="Instagram" />
