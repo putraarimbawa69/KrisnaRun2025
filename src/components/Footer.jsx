@@ -30,7 +30,7 @@ const Footer = () => {
 
         {/* Copyright */}
         <div className="copyright-section">
-          <p>Copyright ©2025 Krisna Run 2025 | Kawara Sport | BONK</p>
+          <p>Copyright ©2025 Krisna Run 2025 | Kawara Sport | BONK </p>
         </div>
       </div>
     </footer>
