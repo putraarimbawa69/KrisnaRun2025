@@ -75,7 +75,7 @@ const CountdownCTA = () => {
           </p>
           
           <a 
-            href="https://eventbrite.com/krisna-run-2025"
+            href="https://regtix.id/"
             target="_blank"
             rel="noopener noreferrer"
             className="cta-button"
