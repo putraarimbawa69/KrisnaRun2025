@@ -1,7 +1,7 @@
-import { defineConfig } from 'vite';
-import preact from '@preact/preset-vite';
+import { defineConfig } from 'vite'
+import preact from '@preact/preset-vite'
 
-// https://vitejs.dev/config/
 export default defineConfig({
-	plugins: [preact()],
-});
+  plugins: [preact()],
+  base: '/KrisnaRun2025/', // Ganti dengan nama repositori GitHub kamu
+})
