@@ -18,7 +18,7 @@ const Header = () => {
         <div className="brand">
           <a href="#home" className="logo-link">
             <img 
-              src="/assets/logo.png" 
+              src={`${import.meta.env.BASE_URL}assets/logo.png`}
               alt="Krisha-Saba" 
               width="48"
               height="48"

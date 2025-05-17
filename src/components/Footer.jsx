@@ -10,13 +10,14 @@ const Footer = () => {
             <span className="follow-text">Follow Sosial Media Kami:</span>
             <div className="social-links">
               <a href="#" className="social-item">
-                <img src="/assets/icons/instagram.svg" alt="Instagram" />
+                <img src={`${import.meta.env.BASE_URL}assets/icons/instagram.svg`} alt="Instagram" />
+                
               </a>
               <a href="#" className="social-item">
-                <img src="/assets/icons/facebook.svg" alt="Facebook" />
+                <img src={`${import.meta.env.BASE_URL}assets/icons/facebook.svg`} alt="Facebook" />
               </a>
               <a href="#" className="social-item">
-                <img src="/assets/icons/whatsapp.svg" alt="WhatsApp" />
+                <img src={`${import.meta.env.BASE_URL}assets/icons/whatsapp.svg`} alt="WhatsApp" />
               </a>
             </div>
           </div>

@@ -1,15 +1,16 @@
 import '../css/sponsorhiburan.css'
 
 const SponsorHiburan = () => {
+  const base = import.meta.env.BASE_URL;
   const sponsors = [
-    { logo: '/assets/sponsors/krisna-group.png', alt: 'Krisna Group' },
-    { logo: '/assets/sponsors/bali-gov.png', alt: 'Pemprov Bali' },
-    { logo: '/assets/sponsors/garuda.png', alt: 'Garuda Indonesia' },
-    { logo: '/assets/sponsors/aqua.png', alt: 'Aqua' },
-    { logo: '/assets/sponsors/gojek.png', alt: 'Gojek' },
-    { logo: '/assets/sponsors/ultra-milk.png', alt: 'Ultra Milk' },
-    { logo: '/assets/sponsors/kawara.png', alt: 'kawara' },
-    { logo: '/assets/sponsors/bonk.png', alt: 'bonk' }
+  { logo: `${base}assets/sponsors/krisna-group.png`, alt: 'Krisna Group' },
+  { logo: `${base}assets/sponsors/bali-gov.png`, alt: 'Pemprov Bali' },
+  { logo: `${base}assets/sponsors/garuda.png`, alt: 'Garuda Indonesia' },
+  { logo: `${base}assets/sponsors/aqua.png`, alt: 'Aqua' },
+  { logo: `${base}assets/sponsors/gojek.png`, alt: 'Gojek' },
+  { logo: `${base}assets/sponsors/ultra-milk.png`, alt: 'Ultra Milk' },
+  { logo: `${base}assets/sponsors/kawara.png`, alt: 'Kawara' },
+  { logo: `${base}assets/sponsors/bonk.png`, alt: 'Bonk' },
   ]
 
   const entertainments = [
